@@ -4,4 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_ghw():
-	return "<p>Hello, API Week Hacker Dackers!</p>"
+	return "<p>Hello, API Week Hacker Dackers!!! :D</p>"
+
+	if __name__=="__main__":
+		app.run(debug = True)
