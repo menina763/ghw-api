@@ -21,8 +21,6 @@ hackathons = {
 def hello_ghw():
 	return "<p>Hello, API Week Hacker Dackers!!! :D</p>"
 
-	
-
 @app.route('/getHackathons', methods=['GET'])
 def getHackathons():
 	return hackathons
